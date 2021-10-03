@@ -19,6 +19,8 @@ public class FactoryCaller<T> {
 		
 		Optional.of(FactoryCaller.getInstanceStatically(TomatoPizza.class))
 			.get().getPizza();
+
+		System.out.println("worked");
 				
 	}
 	
