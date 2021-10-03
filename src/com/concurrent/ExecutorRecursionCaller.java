@@ -5,7 +5,7 @@ import java.util.concurrent.RecursiveAction;
 
 public class ExecutorRecursionCaller {
 	
-	private static int[] unsortedNumbers = { 9, 2, 4, 5, 8, 3, 1, 7, 6, 10, 100, 99, 89, 88};
+	private static int[] unsortedNumbers = { 9, 2, 4, 5, 8, 3, 1, 7, 6, 10, 100, 99, 89, 88,199,290};
 	static int low = 0;
 	static int high = unsortedNumbers.length - 1;
 	static int []aux = new int[unsortedNumbers.length];
